@@ -7,13 +7,13 @@ body {
 }
 
 #noButton {
-    position: absolute;
+    position: relative;
     margin-left: 150px;
     transition: 0.5s;
 }
 
 #yesButton {
-    position: absolute;
+    position: relative;
     margin-right: 150px;
 }
 
