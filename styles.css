@@ -54,6 +54,8 @@ body {
     width: 80%; /* Adjust the percentage to your desired size */
     max-width: 300px; /* Ensures it doesn't get too large */
     height: auto; /* Maintains aspect ratio */
+      justify-content: center;
+    align-items: center;
 
 }
 
