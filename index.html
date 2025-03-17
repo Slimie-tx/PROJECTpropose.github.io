@@ -22,15 +22,15 @@
                     }
                     
                     function moveButton() {
-    const noButton = document.getElementById('noButton');
-    const maxX = window.innerWidth - noButton.offsetWidth;
-    const maxY = window.innerHeight - noButton.offsetHeight;
+                        const noButton = document.getElementById('noButton');
+                        const maxX = window.innerWidth - noButton.offsetWidth;
+                        const maxY = window.innerHeight - noButton.offsetHeight;
 
-    const x = Math.random() * maxX;
-    const y = Math.random() * maxY;
+                        const x = Math.random() * maxX;
+                        const y = Math.random() * maxY;
 
-    noButton.style.left = `${x}px`;
-    noButton.style.top = `${y}px`;
+                        noButton.style.left = `${x}px`;
+                        noButton.style.top = `${y}px`;
 }
 
                     }
