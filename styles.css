@@ -33,7 +33,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 15px; /* Adds space between buttons */
-    margin-top: 20px; /* Space above buttons */
+    margin-top: 35px; /* Space above buttons */
 }
 
 .btn {
