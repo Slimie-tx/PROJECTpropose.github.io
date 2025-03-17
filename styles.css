@@ -7,7 +7,7 @@ body {
 }
 
 #noButton {
-    position: relative;
+    position: absolute;
     margin-left: 150px;
     transition: 0.5s;
 }
