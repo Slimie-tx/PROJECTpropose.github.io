@@ -13,7 +13,7 @@ body {
 }
 
 #yesButton {
-    position: relative;
+    position: absolute;
     margin-right: 150px;
 }
 
