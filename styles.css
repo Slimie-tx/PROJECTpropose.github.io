@@ -50,12 +50,20 @@ body {
     transition: background-color 0.3s ease;
 }
 
+.gif_container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    width: 100%;             /* Ensures full-width container */
+}
+
 .gif_container img {
-    width: 80%; /* Adjust the percentage to your desired size */
-    max-width: 300px; /* Ensures it doesn't get too large */
-    height: auto; /* Maintains aspect ratio */
-      justify-content: center;
-    align-items: center;
+    width: 80%;          /* Adjust for desired size */
+    max-width: 350px;    /* Limits maximum size */
+    height: auto;        /* Maintains aspect ratio */
+    display: block;      /* Ensures proper alignment */
+    margin: 0 auto;      /* Centers the GIF */
+
 
 }
 
