@@ -50,10 +50,11 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.gif_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.gif_container img {
+    width: 80%; /* Adjust the percentage to your desired size */
+    max-width: 300px; /* Ensures it doesn't get too large */
+    height: auto; /* Maintains aspect ratio */
+
 }
 
 @media only screen and (max-width: 310px) and (max-height: 520px) {
